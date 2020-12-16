@@ -4,7 +4,7 @@ const text = document.querySelector(".text");
 
 button.addEventListener("click", function () {
   if (words.length == 0) {
-    text.textContent = "Игра окончена";
+    text.textContent = "Игра окончена, вы угадали все слова! Вы просто супер! Похвалите себя!";
     // form.classList.remove('form_close');
     return;
   }
