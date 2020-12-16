@@ -1,4 +1,4 @@
-let words = ["Света", "Соня", "Леша", "Соня супер","Света супер", "Леша в целом тоже супер"];
+let words = ["Господи", "Господи боже мой", "Памагити", "Соня супер","Света супер", "Леша в целом тоже супер"];
 const button = document.querySelector(".button");
 const text = document.querySelector(".text");
 
