@@ -113,7 +113,9 @@
 }
 
 .main {
-  width: 90%;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
