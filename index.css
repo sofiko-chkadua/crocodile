@@ -113,7 +113,7 @@
 }
 
 .main {
-max-width: 320px;
+  max-width: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -139,6 +139,7 @@ max-width: 320px;
   margin: 0;
   text-align: center;
   margin-bottom: 10%;
+  max-width: 300px;
 }
 
 /* .form__input {
@@ -160,10 +161,10 @@ max-width: 320px;
   cursor: pointer;
   border-radius: 3px;
   border: none;
-  max-width: 40%;
-  width: 70%;
   position: absolute;
-  bottom: -30%;
+  bottom: -25%;
+  max-width: 300px;
+  width: 100%;
 
   /* top: 40%;
     position: absolute; */
@@ -227,20 +228,48 @@ max-width: 320px;
   display: block;
 }
 
-@media screen and (min-width: 768px) {
-  .main {
-      max-width: 678px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-  }
 
-  .rules {
-    margin-bottom: 5%;
-    width: 60%;
-  }
+@media screen and (min-width: 320px) {
+    .button {
+        bottom: -20%;
+    } 
 
-  .title {
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
+    .main {
+        margin-bottom: 5vh;
+    }
 }
+
+@media screen and (min-width: 768px) {
+    .main {
+      max-width: 678px;
+      padding-top: 10vh;
+      padding-bottom: 10vh;
+    }
+  
+    .rules {
+      margin-bottom: 5%;
+      max-width: 678px;
+    }
+  
+    .title {
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+  
+    .button {
+      max-width: 678px;
+    }
+  }
+
+  @media screen and (min-width: 991px) {
+    .main {
+        max-width: 768px;
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .button {
+        max-width: 768px;
+  width: 100%;  
+    }
+  }
