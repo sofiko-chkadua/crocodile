@@ -208,7 +208,7 @@
   text-align: center;
   margin-top: 20%;
   margin-bottom: 15%;
-  /* width: 60%; */
+max-width: 300px;
   position: relative;
 }
 
@@ -234,6 +234,7 @@
         bottom: -20%;
     } 
 
+
     .main {
         margin-bottom: 5vh;
     }
@@ -254,6 +255,7 @@
     .title {
       margin-top: 5%;
       margin-bottom: 5%;
+      max-width: 678px;
     }
   
     .button {
@@ -268,6 +270,10 @@
         width: 100%;
     }
 
+    .title {
+        max-width: 768px;
+  
+    }
     .button {
         max-width: 768px;
   width: 100%;  
